@@ -17,6 +17,7 @@ This application remakes the layout and functionity of Instagram social media, m
   
   vite 4.0 for build production
   
+  
 - Concept
 
 RemakeGram fulfills the functionality of a modern social media in these manners,
