@@ -1,93 +1,66 @@
-# remakeGram
-- Description
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-This application remakes the layout and functionity of Instagram social media, making use of full-stack codes according to the PHP/Laravel framework. Stack make-up is as follows,
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-  PHP v8.23  Laravel v10.4
-  
-  Composer 2.5.4
-  
-  node.js 4.22
-  
-  sqlite database with Eloquent ORM
-  
-  vue.js 3.2 
-  
-  bootstrap 5 with authentication
-  
-  vite 4.0 for build production
-  
-  
-- Concept
+## About Laravel
 
-RemakeGram fulfills the functionality of a modern social media in these manners,
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-  require user registration and authentication
-  
-  Display a user's profile and gallery of posts after login
-  
-  Show a user's count of followers, followings & the number of posts
-  
-  Edit a user's own profile and add new posts
-  
-  Trim imported image files to fixed size
-  
-  View a selected post
-  
-  Follow or Unfollow other users and responds
-  
-  Display a list of posts from the followed users and paginate the first 3, when a user logins 
-  
-  Auto-send welcoming email to new user to RemakeGram, using the 3rd party Mailtrap webhook
-  
-  
-- Deployment
- 
- Coming Soon on Heroku
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-# App in Action
+## Learning Laravel
 
- - Welcome Page with Authentication (Laravel v10.4  PHP v8.2.3)![Welcome](https://user-images.githubusercontent.com/105307687/227789451-056a02ed-c71f-4af5-82b5-cd16306f6b0b.JPG)
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-- Register new user![register](https://user-images.githubusercontent.com/105307687/227789499-1387fbfa-7e4b-435e-89f9-e9eb7f23499e.JPG)
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
+## Laravel Sponsors
 
-- User login
-![login](https://user-images.githubusercontent.com/105307687/227789529-6315edc1-8091-4a94-bac3-3520410ae3e7.JPG)
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
+### Premium Partners
 
-- User profile view after logging in![profile_login](https://user-images.githubusercontent.com/105307687/227789604-bea2d1a2-5607-4e8f-9aab-aff2569cdf46.JPG)
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[OP.GG](https://op.gg)**
+- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+- **[Lendio](https://lendio.com)**
 
+## Contributing
 
-- Edit user profile![edit profile](https://user-images.githubusercontent.com/105307687/227789629-3454a814-10aa-4f84-a6be-9eff91ec705e.JPG)
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
+## Code of Conduct
 
-- User adds new post
-![add post](https://user-images.githubusercontent.com/105307687/227789657-c7912101-81d9-46aa-ab16-6e0a842508ec.JPG)
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
+## Security Vulnerabilities
 
-- View a post
-![post view](https://user-images.githubusercontent.com/105307687/227789693-142dec6c-ece7-4b01-b48f-a8eb3aca3037.JPG)
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+## License
 
-- user profile without logging in
-![profile_null](https://user-images.githubusercontent.com/105307687/227789758-fbe6ecde-6f31-412a-8ebe-36296a369a38.JPG)
-
-
-- Followed and Unfollowed a user![follow](https://user-images.githubusercontent.com/105307687/227789843-36fc9c47-14d3-4283-988e-00113feaaace.JPG)![unfollow](https://user-images.githubusercontent.com/105307687/227789894-7283c14c-63e6-4340-835a-562f7f3f6966.JPG)
-
-
-- Show all followed posts and paginate the first 3
-![paginate_followed_post](https://user-images.githubusercontent.com/105307687/227789954-17bf2a09-3764-40ae-92b0-f685b5d66142.JPG)
-
-
-- Auto-send Welcoming email to users by Mailtrap Webhook
-
-
-![Welcome email](https://user-images.githubusercontent.com/105307687/227790562-163a33f9-ad03-44d2-8947-4755d682a774.JPG)![Auto-send email Mailtrap](https://user-images.githubusercontent.com/105307687/227790568-2d098620-1e16-4bc8-94ac-0a53f6809829.JPG)
-
-
-
-
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

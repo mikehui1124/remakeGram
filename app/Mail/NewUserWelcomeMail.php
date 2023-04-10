@@ -32,7 +32,7 @@ class NewUserWelcomeMail extends Mailable
     }
 
     /**
-     * Get the message content definition.
+     * Get the message content from markdown file:
      */
     public function content(): Content
     {

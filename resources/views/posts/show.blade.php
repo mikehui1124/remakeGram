@@ -31,7 +31,7 @@
                     <a href="/profile/{{ $post->user->id }}">
                         <span class="text-dark">{{$post->user->username}}</span>
                     </a>
-                </span>{{$post -> caption}}
+                </span>{{$post -> caption}}                 
             </p>
         </div>
 

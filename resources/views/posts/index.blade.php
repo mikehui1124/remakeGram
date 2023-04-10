@@ -45,9 +45,9 @@
     <div class="row">
         <!--d-flex, just-content-center comes together  -->
         <div class="col-12 d-flex justify-content-center">
-            <!-- show remaining and next button -->
-            {{ $posts->links() }}
-
+            <!-- show remaining/next button using bootstrap-5 style-->
+            <!-- render the links to the rest of the pages in the result -->
+            {{ $posts->links('pagination::bootstrap-5') }}   
         </div>
 
     </div>
