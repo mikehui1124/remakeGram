@@ -31,7 +31,7 @@ Single post and image view
 
 
 
-Follow a user
+Follow or Unfollow a user
 ![follow](https://github.com/user-attachments/assets/792e85cb-1f9b-4858-93fc-f9cf97fc0c3e)
 
 
