@@ -9,9 +9,11 @@ RemakeGram is the source code for a full scale social media application imitatin
 ## Features
 
 User dashboard
+
 It is a user's gallery of images and posts, covering his user profile and number of followers, viewable by others. New post can be added at the spot.
 ![profile_login](https://github.com/user-attachments/assets/77eda9ea-d3d3-46c9-8d95-d05fe9b8342f)
 ![add post](https://github.com/user-attachments/assets/e14af3d8-9672-48b8-9fc2-e11cd159dfdf)
+
 
 
 User authentication
@@ -20,12 +22,15 @@ User authentication
 ![resetPW](https://github.com/user-attachments/assets/4c3302c7-49eb-4bb2-b630-ff8e82920d07)
 
 
+
 Single post and image view
 ![post view](https://github.com/user-attachments/assets/dd837bd9-f841-476a-bb96-fe064c178091)
 
 
+
 Follow a user
 ![follow](https://github.com/user-attachments/assets/792e85cb-1f9b-4858-93fc-f9cf97fc0c3e)
+
 
 
 Auto send Welcome email to new user after registration
