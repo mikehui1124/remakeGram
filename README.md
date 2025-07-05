@@ -7,6 +7,7 @@
 RemakeGram is the source code for a full scale social media application imitating the reputable Instagram. It is delivered with the PHP/Laravel backend framework, using SQLite connection for storing user data. In terms of the frontend, an elegant and consistent style of user interface is maintained thanks to the Blade template engine, allowing each posts to be shown as dynamic content in an organized dashboard. The frontend also features the Vue framework to improve visual responsiveness to user input.
 
 The application can be invoked by the following command from command_line:
+
 “node server.js”
 
 
