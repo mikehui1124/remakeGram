@@ -38,6 +38,8 @@ Follow or Unfollow a user
 
 
 Auto send Welcome email to new user after registration
+
+Once registered, the user receives a welcome email from RemakeGram by courtesy, automatic sent using Mailtrap as a third party web hook.
 ![Welcome email](https://github.com/user-attachments/assets/48618359-2fa1-4af8-9c9c-6c549573b5fd)
 ![Auto-send email Mailtrap](https://github.com/user-attachments/assets/b9a1e20e-d5e2-4814-9dd2-6e6c2b05d298)
 
