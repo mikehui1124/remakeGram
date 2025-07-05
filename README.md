@@ -16,10 +16,12 @@ It is a user's gallery of images and posts, covering his user profile and number
 
 
 
+
 User authentication
 ![login](https://github.com/user-attachments/assets/269dab28-d85f-4b31-993e-ca39a5d7d348)
 ![register](https://github.com/user-attachments/assets/e6884638-41d6-48cc-abc9-cea32c4ba804)
 ![resetPW](https://github.com/user-attachments/assets/4c3302c7-49eb-4bb2-b630-ff8e82920d07)
+
 
 
 
@@ -28,8 +30,10 @@ Single post and image view
 
 
 
+
 Follow a user
 ![follow](https://github.com/user-attachments/assets/792e85cb-1f9b-4858-93fc-f9cf97fc0c3e)
+
 
 
 
@@ -42,7 +46,6 @@ Auto send Welcome email to new user after registration
 
 
 
-
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+RemakeGram is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
