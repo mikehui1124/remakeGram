@@ -8,7 +8,7 @@ RemakeGram is the source code for a full scale social media application imitatin
 
 The application can be invoked by the following command from command_line:
 
-“node server.js”
+“php artisan serve”
 
 
 ## Features
